@@ -1,0 +1,53 @@
+body{
+margin: 110px;
+background-color: aliceblue;
+}
+
+h1{
+    font: Montserrat;
+    font-size: 28px;
+    font-weight: bold; 
+}
+p{
+    color: brown;
+    font-family: Montserrat;
+    font-size: large;
+}
+.imginicio{
+    margin-left: 25%;
+    width: 90px;
+    height: 50px;
+}
+
+#inicio{
+    background-image: url("../img/inicio.jpeg");
+    height: 200px;
+}
+#barra1{
+    background-color: white;
+}
+#bienvenida{
+    text-align: right;
+    margin-right: 25%;
+    transition: 0.5s;
+}
+
+#bienvenida:hover{
+    transition: 0.5s;
+    text-shadow: 2px 2px 2px red;
+}
+.img_menu{
+    width: 50%;
+    
+}
+
+.inicio_before{
+    background-color: #6EC06F;
+}
+
+#regla2{
+    display: none;
+}
+#regla1{
+    display: none;
+}
